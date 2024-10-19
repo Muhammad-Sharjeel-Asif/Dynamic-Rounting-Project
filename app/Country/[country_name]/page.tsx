@@ -6,7 +6,7 @@ export default function CountryName({ params }: { params: { country_name: string
     capital: string
   }
 
-  var info: country_info | null = null
+  let info: country_info | null = null
 
   if (params.country_name === 'Pakistan') {
     info = {
