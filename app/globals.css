@@ -25,3 +25,30 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Base styles for all screen sizes */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Styles for screens smaller than 600px */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Styles for screens between 601px and 900px */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+/* Styles for screens larger than 900px */
+@media screen and (min-width: 901px) {
+  body {
+    font-size: 16px;
+  }
+}
